@@ -11,24 +11,24 @@
             padding: 0;
             box-sizing: border-box;
         }
-        /* Set full-screen dimensions */
+        /* Set full-screen dimensions for 1920x1080 resolution */
         html, body {
-            width: 100vw;
-            height: 100vh;
+            width: 1920px;
+            height: 1080px;
             overflow: hidden;
         }
         iframe {
             position: fixed;
             top: 0;
             left: 0;
-            width: 1920px;
-            height: 1080px;
+            width: 1920px; /* Match TV's resolution width */
+            height: 1080px; /* Match TV's resolution height */
             border: none;
         }
     </style>
 </head>
 <body>
-    <iframe id="docViewer" src=""https://docs.google.com/document/d/e/2PACX-1vTx0zvWr0IemMWE36PNhWTcS6hR-pgKId0qQ2gguvveZ0w2t7tRujs-rGl3R7VkE4okT9QBHes1uIdz/pub?embedded=true"></iframe>
+    <iframe id="docViewer" src="https://docs.google.com/document/d/1Cazd9kYqHFk2IPaNn8uRcLbblWnTs89dN04UbccpuMs/preview"></iframe>
 
     <script>
         function refreshIframe() {
